@@ -1,6 +1,6 @@
 import type { AuthResponse, CreateBookingInput, CreateOfferInput, LoginInput, Offer, RegisterInput, Booking, User } from '../types'
 
-const BASE = '/api'
+const BASE = 'https://monitorhub-api.onrender.com/api'
 
 async function request<T>(path: string, options: RequestInit = {}): Promise<T> {
   const token = localStorage.getItem('mhub_token')
