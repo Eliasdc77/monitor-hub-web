@@ -1,0 +1,29 @@
+# ── Go ──────────────────────────────────────────────
+apps/api/bin/
+apps/api/*.exe
+
+# ── Node / Vite ──────────────────────────────────────
+apps/web/node_modules/
+apps/web/dist/
+
+# ── Entornos ─────────────────────────────────────────
+.env
+apps/api/.env
+apps/web/.env
+apps/web/.env.local
+
+# ── Editor ───────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# ── Python (legacy .venv) ────────────────────────────
+.venv/
+
+# ── OS ───────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Docker volumes ───────────────────────────────────
+postgres_data/
